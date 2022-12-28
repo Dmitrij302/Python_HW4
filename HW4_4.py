@@ -36,7 +36,7 @@ def polynomial(valueArr):
     return acc
 
 def createFile(valuePoly):
-    with open('dz33.txt', 'a') as poly: 
+    with open('hw4_4.txt', 'a') as poly: 
         poly.write(valuePoly) 
         poly.write('\n')      
 
